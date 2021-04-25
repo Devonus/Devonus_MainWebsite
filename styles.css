@@ -30,6 +30,7 @@ nav {
   display: flex;
   align-items: center;
   letter-spacing: -0.08em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   color: #000000;
 }
@@ -136,4 +137,46 @@ nav {
   letter-spacing: 0em;
   text-align: center;
   color: white;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 1440px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+  height: 78px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  z-index: 1;
+}
+
+.background {
+  border-radius: 0px;
+  top: -100px;
+  height: 1000px;
+  width: 1444px;
+  position: absolute;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+}
+
+.background-div {
+  background: conic-gradient(
+    from -2.39deg at 29.63% -64.71%,
+    rgba(0, 86, 169, 0.7) 0deg,
+    rgba(0, 194, 255, 0.7) 359.96deg,
+    rgba(0, 86, 169, 0.7) 360deg
+  );
+  border-radius: 0px;
+  position: absolute;
+  width: 1529px;
+  height: 1444px;
+  top: -80px;
+  left: -89px;
+  opacity: 1.0;
 }
