@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Roboto&display=swap");
+/*******************************************|
+|                                           |
+|              DESKTOP VERSION              |
+|                                           |
+|*******************************************/
+
+nav {
+  position: absolute;
+  width: 1440px;
+  height: 78px;
+  left: 0px;
+  top: 0px;
+}
+
+.devonus-logo {
+  font-family: "Quattrocento Sans", sans-serif;
+  position: absolute;
+  left: 2.64%;
+  right: 83.4%;
+  top: 21.79%;
+  bottom: 22.65%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 105.3%;
+  /* or 63px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.08em;
+
+  color: #000000;
+}
+
+.home-nav {
+  position: absolute;
+  left: 24.65%;
+  right: 71.6%;
+  top: 37.18%;
+  bottom: 33.33%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.process-nav {
+  position: absolute;
+  left: 33.61%;
+  right: 58.76%;
+  top: 37.18%;
+  bottom: 33.33%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.pricing-nav {
+  position: absolute;
+  left: 46.51%;
+  right: 49.05%;
+  top: 37.18%;
+  bottom: 33.33%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.testimonials-nav {
+  position: absolute;
+  left: 56.18%;
+  right: 35.77%;
+  top: 37.18%;
+  bottom: 33.33%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.company-nav {
+  position: absolute;
+  left: 69.49%;
+  right: 24.61%;
+  top: 37.18%;
+  bottom: 33.33%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.sign-in {
+  position: absolute;
+  left: 86.54%;
+  right: 4.71%;
+  top: 21.79%;
+  bottom: 20.63%;
+  border: #000000;
+  background: #000000;
+  border-radius: 5px;
+  height: 44.90906524658203px;
+  width: 125.9998779296875px;
+  left: 1246.1346435546875px;
+  top: 17px;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
