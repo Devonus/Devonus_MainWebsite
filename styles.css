@@ -4,6 +4,9 @@
 |              DESKTOP VERSION              |
 |                                           |
 |*******************************************/
+* {
+  margin: 0;
+}
 
 nav {
   position: absolute;
@@ -157,26 +160,27 @@ nav {
 
 .background {
   border-radius: 0px;
-  top: -100px;
+  top: -90px;
   height: 1000px;
   width: 1444px;
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.4;
   background-repeat: no-repeat;
 }
 
 .background-div {
   background: conic-gradient(
     from -2.39deg at 29.63% -64.71%,
-    rgba(0, 86, 169, 0.7) 0deg,
-    rgba(0, 194, 255, 0.7) 359.96deg,
-    rgba(0, 86, 169, 0.7) 360deg
+    rgba(0, 86, 169, 0.8) 0deg,
+    rgba(0, 194, 255, 0.8) 359.96deg,
+    rgba(0, 86, 169, 0.8) 360deg
   );
+
   border-radius: 0px;
   position: absolute;
   width: 1529px;
   height: 1444px;
   top: -80px;
   left: -89px;
-  opacity: 1.0;
+  opacity: 1.8;
 }
