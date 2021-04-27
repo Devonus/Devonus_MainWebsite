@@ -24,18 +24,15 @@ nav {
   right: 83.4%;
   top: 21.79%;
   bottom: 22.65%;
-
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
   line-height: 105.3%;
   /* or 63px */
-
   display: flex;
   align-items: center;
   letter-spacing: -0.08em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
   color: #000000;
 }
 
@@ -45,13 +42,11 @@ nav {
   right: 71.6%;
   top: 37.18%;
   bottom: 33.33%;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 
@@ -61,13 +56,11 @@ nav {
   right: 58.76%;
   top: 37.18%;
   bottom: 33.33%;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 
@@ -77,13 +70,11 @@ nav {
   right: 49.05%;
   top: 37.18%;
   bottom: 33.33%;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 
@@ -93,13 +84,11 @@ nav {
   right: 35.77%;
   top: 37.18%;
   bottom: 33.33%;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 
@@ -109,13 +98,11 @@ nav {
   right: 24.61%;
   top: 37.18%;
   bottom: 33.33%;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 
@@ -200,9 +187,7 @@ h1 {
   font-size: 87px;
   line-height: 115%;
   /* identical to box height, or 100px */
-
   letter-spacing: -0.05em;
-
   color: #ffffff;
 }
 
@@ -212,15 +197,77 @@ h2 {
   height: 72px;
   left: 196px;
   top: 485px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 63px;
   line-height: 115%;
   /* or 72px */
-
   letter-spacing: -0.05em;
-
   color: #f8f32b;
+}
+
+.services {
+  font-family: "Roboto";
+  height: 280px;
+  width: 1370px;
+  position: absolute;
+  display: flex;
+  margin-left: 10%;
+  top: 700px;
+  margin-right: auto;
+}
+
+.left-service {
+  width: 660px;
+  height: 200px;
+  margin-right: 1px;
+  background-color: white;
+}
+
+.right-service {
+  width: 660px;
+  height: 200px;
+  background-color: white;
+}
+
+.left-btn {
+  position: absolute;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  top: 32.24%;
+  bottom: 76.79%;
+  height: 31.094573974609375px;
+  width: 141.5916748046875px;
+  left: 475px;
+  background: #0c75f1;
+  border-radius: 5px;
+  color: white;
+}
+
+.right-btn {
+  position: absolute;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(152, 217, 194, 1);
+  top: 32.24%;
+  bottom: 76.78%;
+  height: 31.094573974609375px;
+  width: 140.34716796875px;
+  left: 1143px;
+  border-radius: 5px;
+  color: rgba(152, 217, 194, 1);
+}
+
+h3 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+p {
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 365px;
 }
