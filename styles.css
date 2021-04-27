@@ -238,12 +238,20 @@ h2 {
   text-align: center;
   top: 32.24%;
   bottom: 76.79%;
-  height: 31.094573974609375px;
-  width: 141.5916748046875px;
+  height: 31px;
+  width: 142px;
   left: 475px;
   background: #0c75f1;
   border-radius: 5px;
   color: white;
+}
+
+.left-btn:hover {
+  color: #0c75f1;
+  background: white;
+  border: 2px solid #0c75f1;
+  height: 29px;
+  width: 138px;
 }
 
 .right-btn {
@@ -254,11 +262,16 @@ h2 {
   border: 2px solid rgba(152, 217, 194, 1);
   top: 32.24%;
   bottom: 76.78%;
-  height: 31.094573974609375px;
-  width: 140.34716796875px;
+  height: 31px;
+  width: 142px;
   left: 1143px;
   border-radius: 5px;
   color: rgba(152, 217, 194, 1);
+}
+
+.right-btn:hover {
+  color: white;
+  background: rgba(152, 217, 194, 1);
 }
 
 h3 {
