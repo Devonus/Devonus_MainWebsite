@@ -225,6 +225,21 @@ h2 {
   background-color: white;
 }
 
+.left-service:hover {
+  position: relative;
+  bottom: 50px;
+  height: 250px;
+}
+
+.right-service:hover {
+  position: relative;
+  bottom: 50px;
+  height: 250px;
+}
+.right-service:hover > .right-btn {
+  left: 475px;
+}
+
 .right-service {
   width: 660px;
   height: 200px;
