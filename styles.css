@@ -229,12 +229,16 @@ h2 {
   position: relative;
   bottom: 50px;
   height: 250px;
+  background-color: #232323;
+  color: white;
 }
 
 .right-service:hover {
   position: relative;
   bottom: 50px;
   height: 250px;
+  background-color: #98d9c2;
+  color: white;
 }
 .right-service:hover > .right-btn {
   left: 475px;
