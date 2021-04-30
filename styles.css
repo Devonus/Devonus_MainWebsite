@@ -40,70 +40,76 @@ nav {
   position: absolute;
   left: 24.65%;
   right: 71.6%;
-  top: 37.18%;
-  bottom: 33.33%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  height: 78px;
+  line-height: 70px;
 }
 
 .process-nav {
   position: absolute;
   left: 33.61%;
   right: 58.76%;
-  top: 37.18%;
-  bottom: 33.33%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  height: 78px;
+  line-height: 70px;
 }
 
 .pricing-nav {
   position: absolute;
   left: 46.51%;
   right: 49.05%;
-  top: 37.18%;
-  bottom: 33.33%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  height: 78px;
+  line-height: 70px;
 }
 
 .testimonials-nav {
   position: absolute;
   left: 56.18%;
   right: 35.77%;
-  top: 37.18%;
-  bottom: 33.33%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  height: 78px;
+  vertical-align: middle;
+  line-height: 70px;
 }
 
 .company-nav {
   position: absolute;
   left: 69.49%;
   right: 24.61%;
-  top: 37.18%;
-  bottom: 33.33%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
   color: #000000;
+  height: 78px;
+  line-height: 70px;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .sign-in {
@@ -144,6 +150,18 @@ nav {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: white;
   z-index: 1;
+}
+
+.home-nav:hover,
+.pricing-nav:hover,
+.company-nav:hover,
+.process-nav:hover,
+.testimonials-nav:hover {
+  color: rgba(0, 86, 169, 0.8);
+  cursor: pointer;
+  background-color: #f5f5f5;
+  text-align: center;
+  
 }
 
 .background {
