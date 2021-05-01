@@ -48,6 +48,8 @@ nav {
   color: #000000;
   height: 78px;
   line-height: 70px;
+  text-align: center;
+  width: 75px;
 }
 
 .process-nav {
@@ -62,6 +64,8 @@ nav {
   color: #000000;
   height: 78px;
   line-height: 70px;
+  text-align: center;
+  width: 128px;
 }
 
 .pricing-nav {
@@ -76,6 +80,9 @@ nav {
   color: #000000;
   height: 78px;
   line-height: 70px;
+  text-align: center;
+    width:84px;
+
 }
 
 .testimonials-nav {
@@ -91,6 +98,8 @@ nav {
   height: 78px;
   vertical-align: middle;
   line-height: 70px;
+  text-align: center;
+  width: 135px;
 }
 
 .company-nav {
@@ -105,6 +114,8 @@ nav {
   color: #000000;
   height: 78px;
   line-height: 70px;
+  text-align: center;
+  width: 105px;
 }
 span {
   display: inline-block;
@@ -152,16 +163,30 @@ span {
   z-index: 1;
 }
 
-.home-nav:hover,
-.pricing-nav:hover,
-.company-nav:hover,
-.process-nav:hover,
 .testimonials-nav:hover {
   color: rgba(0, 86, 169, 0.8);
   cursor: pointer;
   background-color: #f5f5f5;
-  text-align: center;
-  
+}
+.home-nav:hover {
+  color: rgba(0, 86, 169, 0.8);
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.pricing-nav:hover {
+  color: rgba(0, 86, 169, 0.8);
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.company-nav:hover {
+  color: rgba(0, 86, 169, 0.8);
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.process-nav:hover {
+  color: rgba(0, 86, 169, 0.8);
+  cursor: pointer;
+  background-color: #f5f5f5;
 }
 
 .background {
@@ -250,6 +275,12 @@ h2 {
   background-color: #232323;
   color: white;
 }
+.left-service:hover > .left-btn {
+  background-color: white;
+  color: #232323;
+  border: none;
+  border: 2px solid white;
+}
 
 .right-service:hover {
   position: relative;
@@ -260,6 +291,7 @@ h2 {
 }
 .right-service:hover > .right-btn {
   left: 475px;
+  background-color: white;
 }
 
 .right-service {
@@ -283,13 +315,6 @@ h2 {
   color: white;
 }
 
-.left-btn:hover {
-  color: #0c75f1;
-  background: white;
-  border: 2px solid #0c75f1;
-  height: 29px;
-  width: 138px;
-}
 
 .right-btn {
   position: absolute;
@@ -304,11 +329,6 @@ h2 {
   left: 1143px;
   border-radius: 5px;
   color: rgba(152, 217, 194, 1);
-}
-
-.right-btn:hover {
-  color: white;
-  background: rgba(152, 217, 194, 1);
 }
 
 h3 {
