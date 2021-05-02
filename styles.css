@@ -81,8 +81,7 @@ nav {
   height: 78px;
   line-height: 70px;
   text-align: center;
-    width:84px;
-
+  width: 84px;
 }
 
 .testimonials-nav {
@@ -313,8 +312,8 @@ h2 {
   background: #0c75f1;
   border-radius: 5px;
   color: white;
+  font-size: 16px;
 }
-
 
 .right-btn {
   position: absolute;
@@ -329,51 +328,104 @@ h2 {
   left: 1143px;
   border-radius: 5px;
   color: rgba(152, 217, 194, 1);
+  font-size: 16px;
 }
 
 h3 {
   padding-left: 50px;
   padding-top: 50px;
+  font-size: 20px;
 }
 
 p {
   padding-left: 50px;
   padding-top: 20px;
   width: 365px;
+  font-size: 16px;
 }
 
 .black-divider {
   position: absolute;
-width: 1440px;
-height: 93px;
-left: 0px;
-top: 779px;
-background: #232323;
+  width: 1440px;
+  height: 93px;
+  left: 0px;
+  top: 779px;
+  background: #232323;
 }
 
 .our-process {
   position: absolute;
-width: 1440px;
-height: 810px;
-left: 0px;
-top: 868px;
+  width: 1440px;
+  height: 810px;
+  left: 0px;
+  top: 868px;
 
-background: #FFFFFF;
+  background: #ffffff;
 }
 
 h4 {
   position: absolute;
-width: 470px;
-height: 35px;
-left: 485px;
-top: 60px;
-font-family: "Roboto";
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-display: flex;
-align-items: center;
+  width: 470px;
+  height: 35px;
+  left: 485px;
+  top: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
 
-color: #000000;
+h5 {
+  position: absolute;
+  width: 470px;
+  height: 59px;
+  left: 485px;
+  top: 110px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #9c9c9c;
+}
+
+.front-app {
+  position: absolute;
+  left: 178.51px;
+  top: 130px;
+    z-index:2;
+
+}
+
+.front-app-img {
+  height: 550px;
+  z-index:2;
+}
+
+.back-app {
+position: absolute;
+left: 178.51px;
+top: 130px;
+}
+
+.back-app-img {
+  height: 550px;
+}
+
+/*for wix to hide home div*/
+
+#SITE_CONTAINER {
+  z-index: -1;
+}
+
+#pageBackground_imoe8 {
+  display: none;
 }
