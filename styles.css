@@ -148,7 +148,7 @@ span {
 }
 
 .nav-bar {
-  position: absolute;
+  position: fixed;
   width: 1440px;
   height: 78px;
   left: 0px;
@@ -192,7 +192,7 @@ span {
 .background {
   border-radius: 0px;
   top: -90px;
-  height: 1000px;
+  height: 963px;
   width: 1444px;
   position: absolute;
   opacity: 0.4;
@@ -210,7 +210,7 @@ span {
   border-radius: 0px;
   position: absolute;
   width: 1529px;
-  height: 1444px;
+  height: 952px;
   top: -80px;
   left: -89px;
   opacity: 1.8;
@@ -340,4 +340,40 @@ p {
   padding-left: 50px;
   padding-top: 20px;
   width: 365px;
+}
+
+.black-divider {
+  position: absolute;
+width: 1440px;
+height: 93px;
+left: 0px;
+top: 779px;
+background: #232323;
+}
+
+.our-process {
+  position: absolute;
+width: 1440px;
+height: 810px;
+left: 0px;
+top: 868px;
+
+background: #FFFFFF;
+}
+
+h4 {
+  position: absolute;
+width: 470px;
+height: 35px;
+left: 485px;
+top: 60px;
+font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+
+color: #000000;
 }
