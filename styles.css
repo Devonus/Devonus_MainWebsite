@@ -159,7 +159,7 @@ span {
   border-radius: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: white;
-  z-index: 1;
+  z-index: 3;
 }
 
 .testimonials-nav:hover {
@@ -356,7 +356,7 @@ p {
 .our-process {
   position: absolute;
   width: 1440px;
-  height: 810px;
+  height: 720px;
   left: 0px;
   top: 868px;
 
@@ -401,23 +401,90 @@ h5 {
   position: absolute;
   left: 178.51px;
   top: 130px;
-    z-index:2;
-
+  z-index: 2;
 }
 
 .front-app-img {
   height: 550px;
-  z-index:2;
+  z-index: 2;
 }
 
 .back-app {
-position: absolute;
-left: 178.51px;
-top: 130px;
+  position: absolute;
+  left: 178.51px;
+  top: 130px;
 }
 
 .back-app-img {
   height: 550px;
+}
+
+.start {
+  position: absolute;
+  width: 114px;
+  height: 41px;
+  left: 852px;
+  top: 266px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #98d9c2;
+}
+
+.journey {
+  position: absolute;
+  width: 343px;
+  height: 41px;
+  left: 852px;
+  top: 307px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #9c9c9c;
+}
+
+.journey-paragraph {
+  position: absolute;
+  width: 359px;
+  height: 69px;
+  left: 852px;
+  top: 360px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #9c9c9c;
+}
+
+.explore {
+  position: absolute;
+  width: 310px;
+  height: 23px;
+  left: 852px;
+  top: 450px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
 }
 
 /*for wix to hide home div*/
