@@ -351,6 +351,15 @@ p {
 a {
   text-decoration: none;
 }
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgba(0, 86, 169, 0.8);
+}
+
 .black-divider {
   position: absolute;
   width: 1440px;
